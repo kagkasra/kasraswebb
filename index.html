@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ترولوگرام</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>ترولوگرام</h1>
+
+    <video id="camera-stream" autoplay playsinline></video>
+    <button id="capture-photo" style="display: none;">گرفتن عکس</button>
+    <canvas id="photo-canvas" style="display: none;"></canvas>
+
+    
+    <button id="select-image">انتخاب عکس از گالری</button>
+    <input type="file" id="image-input" accept="image/*" style="display: none;">
+    <img id="selected-image" alt="عکس انتخاب‌شده" style="display: none;">
+
+    
+    <button id="start-camera">گرفتن عکس</button>
+  
+
+    
+    <button id="send-image">ارسال عکس</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

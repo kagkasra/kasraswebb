@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #4CAF50;
+}
+
+button {
+    display: block;
+    width: 90%;
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ff6600;
+}
+
+#camera-stream {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    margin: 10px auto;
+    border: 2px solid #ccc;
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px auto;
+    display: block;
+    border: 2px solid #ccc;
+}
